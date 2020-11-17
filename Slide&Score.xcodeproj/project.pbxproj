@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		720808E423FB479F008FA67C /* Winning_Bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 720808E323FB479F008FA67C /* Winning_Bell.mp3 */; };
+		720808E723FB47D4008FA67C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720808E623FB47D4008FA67C /* AVFoundation.framework */; };
+		720808EB23FB4A77008FA67C /* Game-over-robotic-voice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 720808EA23FB4A76008FA67C /* Game-over-robotic-voice.mp3 */; };
+		720808EE23FB4CE0008FA67C /* win-win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 720808ED23FB4CDF008FA67C /* win-win.mp3 */; };
+		720808F023FB4F09008FA67C /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 720808EF23FB4F09008FA67C /* beep.mp3 */; };
 		72CB54CC23F8433900988BBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CB54CB23F8433900988BBE /* AppDelegate.swift */; };
 		72CB54CE23F8433900988BBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CB54CD23F8433900988BBE /* SceneDelegate.swift */; };
 		72CB54D023F8433900988BBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CB54CF23F8433900988BBE /* ViewController.swift */; };
@@ -15,6 +20,11 @@
 		72CB54D823F8433A00988BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CB54D623F8433A00988BBE /* LaunchScreen.storyboard */; };
 		72CB54E323F8433B00988BBE /* Assignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CB54E223F8433B00988BBE /* Assignment1Tests.swift */; };
 		72CB54EE23F8433B00988BBE /* Assignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CB54ED23F8433B00988BBE /* Assignment1UITests.swift */; };
+		72E2E33723FC641A00234FD0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E2E33623FC641A00234FD0 /* FirstViewController.swift */; };
+		72E2E33923FC642900234FD0 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72E2E33823FC642800234FD0 /* FirstViewController.xib */; };
+		72F427A323FB8A07000BD765 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F427A123FB8A07000BD765 /* NormalViewController.swift */; };
+		72F427A423FB8A07000BD765 /* NormalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72F427A223FB8A07000BD765 /* NormalViewController.xib */; };
+		72F427A623FB929C000BD765 /* HardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F427A523FB929C000BD765 /* HardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		72CB54C823F8433900988BBE /* Assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		720808E323FB479F008FA67C /* Winning_Bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Winning_Bell.mp3; path = Sounds/Winning_Bell.mp3; sourceTree = SOURCE_ROOT; };
+		720808E623FB47D4008FA67C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		720808EA23FB4A76008FA67C /* Game-over-robotic-voice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Game-over-robotic-voice.mp3"; path = "Sounds/Game-over-robotic-voice.mp3"; sourceTree = SOURCE_ROOT; };
+		720808ED23FB4CDF008FA67C /* win-win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "win-win.mp3"; path = "Sounds/win-win.mp3"; sourceTree = SOURCE_ROOT; };
+		720808EF23FB4F09008FA67C /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beep.mp3; path = Sounds/beep.mp3; sourceTree = SOURCE_ROOT; };
+		72CB54C823F8433900988BBE /* Slide&Score.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slide&Score.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CB54CB23F8433900988BBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72CB54CD23F8433900988BBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		72CB54CF23F8433900988BBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +58,17 @@
 		72CB54D423F8433A00988BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72CB54D723F8433A00988BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72CB54D923F8433A00988BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72CB54DE23F8433B00988BBE /* Assignment1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CB54DE23F8433B00988BBE /* Slide&ScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slide&ScoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CB54E223F8433B00988BBE /* Assignment1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1Tests.swift; sourceTree = "<group>"; };
 		72CB54E423F8433B00988BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72CB54E923F8433B00988BBE /* Assignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CB54E923F8433B00988BBE /* Slide&ScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slide&ScoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CB54ED23F8433B00988BBE /* Assignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1UITests.swift; sourceTree = "<group>"; };
 		72CB54EF23F8433B00988BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72E2E33623FC641A00234FD0 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		72E2E33823FC642800234FD0 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		72F427A123FB8A07000BD765 /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		72F427A223FB8A07000BD765 /* NormalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalViewController.xib; sourceTree = "<group>"; };
+		72F427A523FB929C000BD765 /* HardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				720808E723FB47D4008FA67C /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		720808E523FB47D4008FA67C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				720808E623FB47D4008FA67C /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		72CB54BF23F8433800988BBE = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +112,16 @@
 				72CB54E123F8433B00988BBE /* Assignment1Tests */,
 				72CB54EC23F8433B00988BBE /* Assignment1UITests */,
 				72CB54C923F8433900988BBE /* Products */,
+				720808E523FB47D4008FA67C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		72CB54C923F8433900988BBE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72CB54C823F8433900988BBE /* Assignment1.app */,
-				72CB54DE23F8433B00988BBE /* Assignment1Tests.xctest */,
-				72CB54E923F8433B00988BBE /* Assignment1UITests.xctest */,
+				72CB54C823F8433900988BBE /* Slide&Score.app */,
+				72CB54DE23F8433B00988BBE /* Slide&ScoreTests.xctest */,
+				72CB54E923F8433B00988BBE /* Slide&ScoreUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +132,19 @@
 				72CB54CB23F8433900988BBE /* AppDelegate.swift */,
 				72CB54CD23F8433900988BBE /* SceneDelegate.swift */,
 				72CB54CF23F8433900988BBE /* ViewController.swift */,
+				720808E323FB479F008FA67C /* Winning_Bell.mp3 */,
+				720808EA23FB4A76008FA67C /* Game-over-robotic-voice.mp3 */,
+				720808EF23FB4F09008FA67C /* beep.mp3 */,
+				72E2E33623FC641A00234FD0 /* FirstViewController.swift */,
+				72E2E33823FC642800234FD0 /* FirstViewController.xib */,
+				720808ED23FB4CDF008FA67C /* win-win.mp3 */,
 				72CB54D123F8433900988BBE /* Main.storyboard */,
 				72CB54D423F8433A00988BBE /* Assets.xcassets */,
 				72CB54D623F8433A00988BBE /* LaunchScreen.storyboard */,
 				72CB54D923F8433A00988BBE /* Info.plist */,
+				72F427A123FB8A07000BD765 /* NormalViewController.swift */,
+				72F427A223FB8A07000BD765 /* NormalViewController.xib */,
+				72F427A523FB929C000BD765 /* HardViewController.swift */,
 			);
 			path = Assignment1;
 			sourceTree = "<group>";
@@ -131,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		72CB54C723F8433900988BBE /* Assignment1 */ = {
+		72CB54C723F8433900988BBE /* Slide&Score */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72CB54F223F8433B00988BBE /* Build configuration list for PBXNativeTarget "Assignment1" */;
+			buildConfigurationList = 72CB54F223F8433B00988BBE /* Build configuration list for PBXNativeTarget "Slide&Score" */;
 			buildPhases = (
 				72CB54C423F8433900988BBE /* Sources */,
 				72CB54C523F8433900988BBE /* Frameworks */,
@@ -143,14 +182,14 @@
 			);
 			dependencies = (
 			);
-			name = Assignment1;
+			name = "Slide&Score";
 			productName = Assignment1;
-			productReference = 72CB54C823F8433900988BBE /* Assignment1.app */;
+			productReference = 72CB54C823F8433900988BBE /* Slide&Score.app */;
 			productType = "com.apple.product-type.application";
 		};
-		72CB54DD23F8433B00988BBE /* Assignment1Tests */ = {
+		72CB54DD23F8433B00988BBE /* Slide&ScoreTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72CB54F523F8433B00988BBE /* Build configuration list for PBXNativeTarget "Assignment1Tests" */;
+			buildConfigurationList = 72CB54F523F8433B00988BBE /* Build configuration list for PBXNativeTarget "Slide&ScoreTests" */;
 			buildPhases = (
 				72CB54DA23F8433B00988BBE /* Sources */,
 				72CB54DB23F8433B00988BBE /* Frameworks */,
@@ -161,14 +200,14 @@
 			dependencies = (
 				72CB54E023F8433B00988BBE /* PBXTargetDependency */,
 			);
-			name = Assignment1Tests;
+			name = "Slide&ScoreTests";
 			productName = Assignment1Tests;
-			productReference = 72CB54DE23F8433B00988BBE /* Assignment1Tests.xctest */;
+			productReference = 72CB54DE23F8433B00988BBE /* Slide&ScoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		72CB54E823F8433B00988BBE /* Assignment1UITests */ = {
+		72CB54E823F8433B00988BBE /* Slide&ScoreUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72CB54F823F8433B00988BBE /* Build configuration list for PBXNativeTarget "Assignment1UITests" */;
+			buildConfigurationList = 72CB54F823F8433B00988BBE /* Build configuration list for PBXNativeTarget "Slide&ScoreUITests" */;
 			buildPhases = (
 				72CB54E523F8433B00988BBE /* Sources */,
 				72CB54E623F8433B00988BBE /* Frameworks */,
@@ -179,9 +218,9 @@
 			dependencies = (
 				72CB54EB23F8433B00988BBE /* PBXTargetDependency */,
 			);
-			name = Assignment1UITests;
+			name = "Slide&ScoreUITests";
 			productName = Assignment1UITests;
-			productReference = 72CB54E923F8433B00988BBE /* Assignment1UITests.xctest */;
+			productReference = 72CB54E923F8433B00988BBE /* Slide&ScoreUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 72CB54C323F8433800988BBE /* Build configuration list for PBXProject "Assignment1" */;
+			buildConfigurationList = 72CB54C323F8433800988BBE /* Build configuration list for PBXProject "Slide&Score" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +259,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72CB54C723F8433900988BBE /* Assignment1 */,
-				72CB54DD23F8433B00988BBE /* Assignment1Tests */,
-				72CB54E823F8433B00988BBE /* Assignment1UITests */,
+				72CB54C723F8433900988BBE /* Slide&Score */,
+				72CB54DD23F8433B00988BBE /* Slide&ScoreTests */,
+				72CB54E823F8433B00988BBE /* Slide&ScoreUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,9 +271,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				720808EE23FB4CE0008FA67C /* win-win.mp3 in Resources */,
+				72E2E33923FC642900234FD0 /* FirstViewController.xib in Resources */,
 				72CB54D823F8433A00988BBE /* LaunchScreen.storyboard in Resources */,
+				720808E423FB479F008FA67C /* Winning_Bell.mp3 in Resources */,
 				72CB54D523F8433A00988BBE /* Assets.xcassets in Resources */,
+				720808EB23FB4A77008FA67C /* Game-over-robotic-voice.mp3 in Resources */,
+				720808F023FB4F09008FA67C /* beep.mp3 in Resources */,
 				72CB54D323F8433900988BBE /* Main.storyboard in Resources */,
+				72F427A423FB8A07000BD765 /* NormalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +307,9 @@
 				72CB54D023F8433900988BBE /* ViewController.swift in Sources */,
 				72CB54CC23F8433900988BBE /* AppDelegate.swift in Sources */,
 				72CB54CE23F8433900988BBE /* SceneDelegate.swift in Sources */,
+				72E2E33723FC641A00234FD0 /* FirstViewController.swift in Sources */,
+				72F427A323FB8A07000BD765 /* NormalViewController.swift in Sources */,
+				72F427A623FB929C000BD765 /* HardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +334,12 @@
 /* Begin PBXTargetDependency section */
 		72CB54E023F8433B00988BBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 72CB54C723F8433900988BBE /* Assignment1 */;
+			target = 72CB54C723F8433900988BBE /* Slide&Score */;
 			targetProxy = 72CB54DF23F8433B00988BBE /* PBXContainerItemProxy */;
 		};
 		72CB54EB23F8433B00988BBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 72CB54C723F8433900988BBE /* Assignment1 */;
+			target = 72CB54C723F8433900988BBE /* Slide&Score */;
 			targetProxy = 72CB54EA23F8433B00988BBE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4G67KLBRN;
 				INFOPLIST_FILE = Assignment1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4G67KLBRN;
 				INFOPLIST_FILE = Assignment1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -481,7 +531,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment1.app/Assignment1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slide&Score.app/Slide&Score";
 			};
 			name = Debug;
 		};
@@ -502,7 +552,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment1.app/Assignment1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slide&Score.app/Slide&Score";
 			};
 			name = Release;
 		};
@@ -547,7 +597,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72CB54C323F8433800988BBE /* Build configuration list for PBXProject "Assignment1" */ = {
+		72CB54C323F8433800988BBE /* Build configuration list for PBXProject "Slide&Score" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72CB54F023F8433B00988BBE /* Debug */,
@@ -556,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72CB54F223F8433B00988BBE /* Build configuration list for PBXNativeTarget "Assignment1" */ = {
+		72CB54F223F8433B00988BBE /* Build configuration list for PBXNativeTarget "Slide&Score" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72CB54F323F8433B00988BBE /* Debug */,
@@ -565,7 +615,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72CB54F523F8433B00988BBE /* Build configuration list for PBXNativeTarget "Assignment1Tests" */ = {
+		72CB54F523F8433B00988BBE /* Build configuration list for PBXNativeTarget "Slide&ScoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72CB54F623F8433B00988BBE /* Debug */,
@@ -574,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72CB54F823F8433B00988BBE /* Build configuration list for PBXNativeTarget "Assignment1UITests" */ = {
+		72CB54F823F8433B00988BBE /* Build configuration list for PBXNativeTarget "Slide&ScoreUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72CB54F923F8433B00988BBE /* Debug */,
